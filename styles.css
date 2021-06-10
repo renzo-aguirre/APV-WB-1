@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Satisfy&display=swap');
+
+body{
+    background-image:url("background.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap:wrap;
+    margin: 0;
+    padding: 0;
+}
+
+i{
+    font-size: 50px;
+    color: gold;
+    float: right;
+}
+
+img{
+    border: 7px solid yellow;
+}
+
+h1,h2{
+    font-family: 'Dancing Script', cursive;
+}
+
+p,ul,ol{
+    font-family: 'Satisfy', cursive;
+}
+
+ul{
+    border: 3px solid yellow;
+    border-radius: 25px;
+    padding: 7px 18px;
+    background-color: gold;
+}
+
+ol{
+    border: 3px solid yellow;
+    border-radius: 25px;
+    padding: 7px 17px;
+    background-color: gold;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+.font-theme{
+    border: 3px solid yellow;
+    border-radius: 25px;
+    padding: 1px;
+    background-color: gold;
+}
+
